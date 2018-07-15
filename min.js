@@ -1,6 +1,10 @@
-document.getElementById("#cal").innerHTML=
-    onclick=alert("This is a Calculator");
 
-    document.getElementById("#pixel").innerHTML=
-    onclick=alert("This is my Pixel Art Maker");
+var links= document.getElementById("");
+document.getElementById("#cal").onclick=function(){
+    alert("This is a Calculator");
+}
+  
+
+    document.getElementById("#pixel"). onclick=function(){
+        alert("This is my Pixel Art Maker");}
 

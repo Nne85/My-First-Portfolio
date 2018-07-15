@@ -11,19 +11,28 @@ html {
     width: 100%;
     height: 100%;
 }
-/*header,
-section,
-div,
-footer {
-        box-sizing: border-box;
-    }*/
+
     h2 {
       margin: 2px;
     }
-    @media screen and (max-width:500px){body{
+    @media screen and (max-width:500px){
+      body{
       background-image: url("images/blurbranch.jpg");
-    }}
+    }
+  }
+    @media screen and (min-width:320px){
+      body{
+        background-color: aquamarine;
+      }
+    }
 
+@media screen and (max-width:800px){
+  body{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Udacity_logo.png/320px-Udacity_logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
 ul {
     list-style: none;
     padding: 0;
